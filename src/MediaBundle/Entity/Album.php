@@ -164,22 +164,14 @@ class Album
     }
 
     /**
-     * Set image
-     *
      * @param string $image
-     *
-     * @return Album
      */
     public function setImage($image)
     {
         $this->image = $image;
-
-        return $this;
     }
 
     /**
-     * Get image
-     *
      * @return string
      */
     public function getImage()

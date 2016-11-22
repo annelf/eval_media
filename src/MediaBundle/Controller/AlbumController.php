@@ -174,7 +174,7 @@ class AlbumController extends Controller
             return $this->redirectToRoute('album_index');
         }
 
-        return $this->render('album/new.html.twig', array(
+        return $this->render('album/show.html.twig', array(
             'form' => $form->createView(),
         ));
     }
